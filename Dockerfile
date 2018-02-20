@@ -15,8 +15,7 @@ RUN export COMPOSER_ALLOW_SUPERUSER=1 && \
     composer install --no-scripts --no-autoloader --no-dev
 
 
-COPY . .
-RUN chown root:www-data -R .
+COPY --chown=root:www-data . .
 
 RUN export COMPOSER_ALLOW_SUPERUSER=1 && \
     composer dump-autoload -o && \
