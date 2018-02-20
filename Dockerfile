@@ -1,26 +1,28 @@
-FROM ubuntu:latest
+FROM php:7.1-apache
 
-# Install Apache, PHP, and required modules
-RUN apt-get update && \
-	apt-get -y upgrade && \
-	apt-get -y install apache2 libapache2-mod-php7.0 \
-	php7.0 php7.0-mysql php7.0-mbstring php7.0-xml php-curl \
-	curl \
-	mysql-client
+RUN apt-get update -y && apt-get install -y openssl zip unzip && \
+    curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer; \
+    docker-php-ext-install mbstring &&\
+    a2enmod rewrite
 
-# Enable Apache modules
-RUN a2enmod php7.0 && a2enmod rewrite
-
-# Copy project files into place (should already be built)
-COPY --chown=www-data:www-data . /var/www/hspc.cs.uab.edu
-
-# Set file permissions
-WORKDIR /var/www/hspc.cs.uab.edu
-RUN chgrp -R www-data storage bootstrap/cache
-RUN chmod -R ug+rwx storage bootstrap/cache
-
-# Use our own apache vhost
 COPY vhost.conf /etc/apache2/sites-available/000-default.conf
 
-# Start Apache
+WORKDIR /var/www/app
+
+COPY composer.json ./
+COPY composer.lock ./
+RUN export COMPOSER_ALLOW_SUPERUSER=1 && \
+    composer install --no-scripts --no-autoloader --no-dev
+
+
+COPY . .
+RUN chown root:www-data -R .
+
+RUN export COMPOSER_ALLOW_SUPERUSER=1 && \
+    composer dump-autoload -o && \
+    chmod -R 755 . && \
+    chmod -R 775 storage bootstrap/cache
+
+EXPOSE 80
+
 ENTRYPOINT ["sh", "./start.sh"]
