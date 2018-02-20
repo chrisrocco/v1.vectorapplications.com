@@ -6,21 +6,4 @@ services:
       dockerfile: Dockerfile
     env_file: .env
     ports:
-      - 8080:80
-    links:
-      - database
-    volumes:
-      - ./:/var/www/hspc.cs.uab.edu
-  database:
-    image: mysql:5.6
-    volumes:
-      - dbdata:/var/lib/mysql
-    environment:
-      - "MYSQL_DATABASE=uab_hspc"
-      - "MYSQL_USER=website"
-      - "MYSQL_PASSWORD=secret"
-      - "MYSQL_ROOT_PASSWORD=secret"
-    ports:
-        - "33061:3306"
-volumes:
-  dbdata:
+      - 8000:80
