@@ -408,136 +408,136 @@
         <div class="portfolio-container text-center">
             <ul class="portfolio-filter brand-filter">
                 <li class="active waves-effect waves-light" data-group="all">All</li>
-                <li class="waves-effect waves-light" data-group="websites">Websites</li>
-                <li class="waves-effect waves-light" data-group="branding">Branding</li>
-                <li class="waves-effect waves-light" data-group="marketing">Marketing</li>
-                <li class="waves-effect waves-light" data-group="photography">Photography</li>
+                <li class="waves-effect waves-light" data-group="e-commerce">E-Commerce</li>
+                <li class="waves-effect waves-light" data-group="wholesale">Wholesale</li>
+                <li class="waves-effect waves-light" data-group="education">Education</li>
+                <li class="waves-effect waves-light" data-group="research">Research</li>
             </ul>
 
             <div class="portfolio portfolio-with-title col-3 gutter mt-50">
 
-                <div class="portfolio-item" data-groups='["all", "branding", "photography"]'>
+                <div class="portfolio-item" data-groups='["all", "research"]'>
                     <div class="portfolio-wrapper">
 
                         <div class="thumb">
                             <div class="bg-overlay brand-overlay"></div>
-                            <img src="assets/img/portfolio/portfolio-1.jpg" alt="">
+                            <img src="assets/img/portfolio/rc-form-builder.png" alt="">
 
                             <div class="portfolio-intro">
                                 <div class="action-btn">
-                                    <a href="assets/img/portfolio/portfolio-1.jpg" class="tt-lightbox" title="iOS Game Design"> <i class="fa fa-search"></i></a>
+                                    <a href="assets/img/portfolio/rc-form-builder.png" class="tt-lightbox" title="iOS Game Design"> <i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                         </div><!-- thumb -->
 
                         <div class="portfolio-title">
-                            <h2><a href="#">Portfolio Title</a></h2>
-                            <p><a href="#">iOS Design</a> </p>
+                            <h2><a href="#">Dynamic Form Builder</a></h2>
+                            <p><a href="#">UAB Energetics Research</a> </p>
                         </div>
 
                     </div><!-- /.portfolio-wrapper -->
-                </div><!-- /.portfolio-item -->
+                </div>
 
-                <div class="portfolio-item" data-groups='["all", "marketing", "websites"]'>
+                <div class="portfolio-item" data-groups='["all", "enterprisePortal"]'>
                     <div class="portfolio-wrapper">
                         <div class="thumb">
                             <div class="bg-overlay brand-overlay"></div>
-                            <img src="assets/img/portfolio/portfolio-2.jpg" alt="">
+                            <img src="assets/img/portfolio/tcc-landing.png" alt="">
 
                             <div class="portfolio-intro">
                                 <div class="action-btn">
-                                    <a href="assets/img/portfolio/portfolio-2.jpg" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
+                                    <a href="assets/img/portfolio/tcc-landing.png" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="portfolio-title">
-                            <h2><a href="#">Portfolio Title</a></h2>
-                            <p><a href="#">Branding</a> </p>
+                            <h2><a href="#">Event Management System</a></h2>
+                            <p><a href="#">The Christmas Carolers</a> </p>
                         </div>
 
                     </div><!-- /.portfolio-wrapper -->
-                </div><!-- /.portfolio-item -->
+                </div>
 
-                <div class="portfolio-item" data-groups='["all", "photography", "branding"]'>
+                <div class="portfolio-item" data-groups='["all", "e-commerce"]'>
 
                     <div class="portfolio-wrapper">
                         <div class="thumb">
                             <div class="bg-overlay brand-overlay"></div>
-                            <img src="assets/img/portfolio/portfolio-3.jpg" alt="">
+                            <img src="assets/img/portfolio/ee-products.png" alt="">
 
                             <div class="portfolio-intro">
                                 <div class="action-btn">
-                                    <a href="assets/img/portfolio/portfolio-3.jpg" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
+                                    <a href="assets/img/portfolio/ee-products.png" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="portfolio-title">
-                            <h2><a href="#">Portfolio Title</a></h2>
-                            <p><a href="#">Branding</a> </p>
+                            <h2><a href="#">Wholesale Storefront</a></h2>
+                            <p><a href="#">Elegant Earth</a> </p>
                         </div>
 
                     </div><!-- /.portfolio-wrapper -->
-                </div><!-- /.portfolio-item -->
+                </div>
 
-                <div class="portfolio-item" data-groups='["all", "websites", "branding"]'>
+                <div class="portfolio-item" data-groups='["all", "e-commerce"]'>
                     <div class="portfolio-wrapper">
                         <div class="thumb">
                             <div class="bg-overlay brand-overlay"></div>
-                            <img src="assets/img/portfolio/portfolio-4.jpg" alt="">
+                            <img src="assets/img/portfolio/eea-tiles.png" alt="">
 
                             <div class="portfolio-intro">
                                 <div class="action-btn">
-                                    <a href="assets/img/portfolio/portfolio-4.jpg" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
+                                    <a href="assets/img/portfolio/eea-tiles.png" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="portfolio-title">
-                            <h2><a href="#">Portfolio Title</a></h2>
-                            <p><a href="#">Branding</a> </p>
+                            <h2><a href="#">Retail Storefront</a></h2>
+                            <p><a href="#">The Arbor Birmingham</a> </p>
                         </div>
 
                     </div><!-- /.portfolio-wrapper -->
-                </div><!-- /.portfolio-item -->
+                </div>
 
-                <div class="portfolio-item" data-groups='["all", "photography", "marketing"]'>
+                <div class="portfolio-item" data-groups='["all", "education"]'>
                     <div class="portfolio-wrapper">
                         <div class="thumb">
                             <div class="bg-overlay brand-overlay"></div>
-                            <img src="assets/img/portfolio/portfolio-5.jpg" alt="">
+                            <img src="assets/img/portfolio/bd-assignments.png" alt="">
 
                             <div class="portfolio-intro">
                                 <div class="action-btn">
-                                    <a href="assets/img/portfolio/portfolio-5.jpg" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
+                                    <a href="assets/img/portfolio/bd-assignments.png" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="portfolio-title">
-                            <h2><a href="#">Portfolio Title</a></h2>
-                            <p><a href="#">Branding</a> </p>
+                            <h2><a href="#">Meta-Data Analysis Portal</a></h2>
+                            <p><a href="#">Big Data Education Program</a> </p>
                         </div>
 
                     </div><!-- /.portfolio-wrapper -->
-                </div><!-- /.portfolio-item -->
+                </div>
 
-                <div class="portfolio-item" data-groups='["all", "websites",  "marketing"]'>
+                <div class="portfolio-item" data-groups='["all", "research", "enterprisePortal"]'>
                     <div class="portfolio-wrapper">
                         <div class="thumb">
                             <div class="bg-overlay brand-overlay"></div>
-                            <img src="assets/img/portfolio/portfolio-6.jpg" alt="">
+                            <img src="assets/img/portfolio/rc-users.png" alt="">
 
                             <div class="portfolio-intro">
                                 <div class="action-btn">
-                                    <a href="#."> <i class="fa fa-link"></i>  </a>
+                                    <a href="assets/img/portfolio/rc-users.png" class="tt-lightbox" title=""> <i class="fa fa-search"></i>  </a>
                                 </div>
                             </div>
                         </div>
                         <div class="portfolio-title">
-                            <h2><a href="#">Portfolio Title</a></h2>
-                            <p><a href="#">Branding</a> </p>
+                            <h2><a href="#">User Management System</a></h2>
+                            <p><a href="#">Research Data Portal</a> </p>
                         </div>
 
                     </div><!-- /.portfolio-wrapper -->
-                </div><!-- /.portfolio-item -->
+                </div>
 
             </div><!-- /.portfolio -->
 
@@ -561,7 +561,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="border-box">
                         <a href="#">
-                            <img src="assets/img/client-logo/1.png" alt="clients">
+                            <img src="assets/img/clients/ee.png" alt="clients">
                         </a>
                     </div><!-- /.border-box -->
                 </div><!-- /.col-md-3 -->
@@ -569,7 +569,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="border-box">
                         <a href="#">
-                            <img src="assets/img/client-logo/2.png" alt="clients">
+                            <img src="assets/img/clients/uab-shpc.png" alt="clients">
                         </a>
                     </div><!-- /.border-box -->
                 </div><!-- /.col-md-3 -->
@@ -577,7 +577,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="border-box">
                         <a href="#">
-                            <img src="assets/img/client-logo/4.png" alt="clients">
+                            <img src="assets/img/clients/tcc-red.png" alt="clients">
                         </a>
                     </div><!-- /.border-box -->
                 </div><!-- /.col-md-3 -->
@@ -585,7 +585,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="border-box">
                         <a href="#">
-                            <img src="assets/img/client-logo/5.png" alt="clients">
+                            <img src="assets/img/clients/eea.png" alt="clients">
                         </a>
                     </div><!-- /.border-box -->
                 </div><!-- /.col-md-3 -->
