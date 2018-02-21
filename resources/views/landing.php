@@ -561,7 +561,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="border-box">
                         <a href="#">
-                            <img src="assets/img/client-logo/1.png" alt="clients">
+                            <img src="assets/img/clients/ee.png" alt="clients">
                         </a>
                     </div><!-- /.border-box -->
                 </div><!-- /.col-md-3 -->
@@ -569,7 +569,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="border-box">
                         <a href="#">
-                            <img src="assets/img/client-logo/2.png" alt="clients">
+                            <img src="assets/img/clients/uab-shpc.png" alt="clients">
                         </a>
                     </div><!-- /.border-box -->
                 </div><!-- /.col-md-3 -->
@@ -577,7 +577,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="border-box">
                         <a href="#">
-                            <img src="assets/img/client-logo/4.png" alt="clients">
+                            <img src="assets/img/clients/tcc-red.png" alt="clients">
                         </a>
                     </div><!-- /.border-box -->
                 </div><!-- /.col-md-3 -->
@@ -585,7 +585,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="border-box">
                         <a href="#">
-                            <img src="assets/img/client-logo/5.png" alt="clients">
+                            <img src="assets/img/clients/eea.png" alt="clients">
                         </a>
                     </div><!-- /.border-box -->
                 </div><!-- /.col-md-3 -->
