@@ -61,6 +61,7 @@
     <![endif]-->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script src="/node_modules/angular-input-masks/releases/angular-input-masks-standalone.min.js"></script>
     <script src="app.js"></script>
 </head>
 
@@ -673,7 +674,7 @@
 
                             <div class="col-md-6">
                                 <div class="input-field">
-                                    <input id="phone" name="phone" type="tel" class="validate"
+                                    <input ui-us-phone-number-mask id="phone" name="phone" type="text"
                                            ng-model="$ctrl.form.phone">
                                     <label for="phone" class="">Phone Number</label>
                                 </div>

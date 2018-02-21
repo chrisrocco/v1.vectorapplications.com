@@ -1,0 +1,22 @@
+{
+  "name": "vector-applications-website",
+  "version": "1.0.0",
+  "description": "Public facing website for Vector Applications, LLC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vector-web-devleopment/website.git"
+  },
+  "author": "Chris Rocco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vector-web-devleopment/website/issues"
+  },
+  "homepage": "https://github.com/vector-web-devleopment/website#readme",
+  "dependencies": {
+    "angular-input-masks": "^4.1.0"
+  }
+}

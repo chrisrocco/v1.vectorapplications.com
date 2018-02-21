@@ -8,7 +8,9 @@
         message: ""
     };
 
-    angular.module("vector", [])
+    angular.module("vector", [
+        "ui.utils.masks"
+    ])
         .controller("vector.controller", function($scope, $http){
             var _self = this;
             this.form = Object.assign({}, defaultForm);
