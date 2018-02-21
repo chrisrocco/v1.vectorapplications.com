@@ -4,33 +4,29 @@
         name: "",
         phone: "",
         email: "",
-        skill_level: "",
-        grade_level: "",
-        programming_language: ""
+        business_name: "",
+        message: ""
     };
 
-    angular.module("hspc", [])
-        .controller("hspc.controller", function($scope, $http){
+    angular.module("vector", [])
+        .controller("vector.controller", function($scope, $http){
             var _self = this;
-            this.registrationForm = Object.assign({}, defaultForm);
+            this.form = Object.assign({}, defaultForm);
 
-            this.register = function register($event){
+            this.submit = function ($event){
                 // TODO - form validation
                 $event.preventDefault();
 
-                $http.post("/api/register", _self.registrationForm)
+                $http.post("/api/contact", _self.form)
                     .then(function(res){
-                        swal("You are registered!", "We look forward to seeing you there!", "success");
-                        this.registrationForm = Object.assign({}, defaultForm);
+                        swal("Inquiry Sent!", "You'll hear back from us shortly!", "success");
+                        _self.form = Object.assign({}, defaultForm);
                     }, function(err){
                         console.log(err);
                         switch(err.status){
-                            case 409: return swal("That email is already registered!", "", 'error');
                             case 500: return swal("Oops.. something went wrong", '', 'error');
                         }
                     });
-
-                return false;
             }
         })
-})()
+})();

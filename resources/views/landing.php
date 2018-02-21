@@ -431,7 +431,7 @@
                             <div class="col-md-6">
                                 <div class="input-field">
                                     <input type="text" name="name" class="validate" id="name"
-                                           ng-model="$ctrl.registrationForm.name">
+                                           ng-model="$ctrl.contactForm.name">
                                     <label for="name" class="">Contact Name</label>
                                 </div>
 
@@ -440,33 +440,20 @@
                             <div class="col-md-6">
                                 <div class="input-field">
                                     <input id="phone" name="phone" type="tel" class="validate"
-                                           ng-model="$ctrl.registrationForm.phone">
+                                           ng-model="$ctrl.contactForm.phone">
                                     <label for="phone" class="">Phone Number</label>
                                 </div>
                             </div><!-- /.col-md-6 -->
 
                         </div><!-- /.row -->
 
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="input-field">
-                                    <input type="text" name="location" class="validate" id="location"
-                                           ng-model="$ctrl.registrationForm.location">
-                                    <label for="location" class="">Location</label>
-                                </div>
-                            </div><!-- /.col-md-6 -->
+                        <div class="input-field">
+                            <textarea ng-model="$ctrl.contactForm.message" name="message" id="message" class="materialize-textarea"></textarea>
+                            <label for="message" class="">Message</label>
+                        </div>
 
-                            <div class="col-md-6">
-                                <div class="input-field">
-                                    <label class="sr-only" for="email">Business Name</label>
-                                    <input id="email" type="text" name="business_name"
-                                           ng-model="$ctrl.registrationForm.busines_name">
-                                </div>
-                            </div>
-
-                        </div><!-- /.row -->
-
-                        <button type="submit" name="submit" class="waves-effect waves-light btn mt-30">Request a Callback
+                        <button type="submit" name="submit" class="waves-effect waves-light btn mt-30">
+                            Request a Callback
                         </button>
                     </form>
                 </div>
