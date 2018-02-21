@@ -63,6 +63,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
     <script src="/node_modules/angular-input-masks/releases/angular-input-masks-standalone.min.js"></script>
     <script src="app.js"></script>
+
+
+    <!-- GOOGLE ANALYTICS -->
+    <!-- Global site tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114540405-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114540405-1');
+    </script>
 </head>
 
 <body ng-app="vector" ng-controller="vector.controller as $ctrl" id="top" class="has-header-search">
