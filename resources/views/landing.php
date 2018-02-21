@@ -705,13 +705,9 @@
         <div class="container">
 
             <ul class="social-link text-center tt-animate ltr mt-20">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-tumblr"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                <li><a href="https://www.facebook.com/vectorweb.us/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/vector-applications"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/vector-web-development"><i class="fa fa-github"></i></a></li>
             </ul>
 
             <hr class="mt-10">
@@ -864,7 +860,7 @@
                 type: "mouse",
                 origo: "slidercenter",
                 speed: 2000,
-                levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
+                levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50]
             }
 
 
