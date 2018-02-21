@@ -302,7 +302,7 @@
 
         <div class="text-center mb-80">
             <h2 class="section-title text-uppercase">Who we are</h2>
-            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus,</p>
+            <p class="section-sub">Our agency is driven by results. Years of study and practice have enabled us to tackle new projects quickly and effectively. We do everything a little bit better and faster than the competition.</p>
         </div>
 
         <div class="row">
@@ -406,15 +406,14 @@
     <div class="container">
 
         <div class="text-center mb-50">
-            <h2 class="section-title text-uppercase">Works</h2>
-            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus,</p>
+            <h2 class="section-title text-uppercase">OUR PORTFOLIO</h2>
+            <p class="section-sub">Working with us is Easy!</p>
         </div>
 
         <div class="portfolio-container text-center">
             <ul class="portfolio-filter brand-filter">
                 <li class="active waves-effect waves-light" data-group="all">All</li>
                 <li class="waves-effect waves-light" data-group="e-commerce">E-Commerce</li>
-                <li class="waves-effect waves-light" data-group="wholesale">Wholesale</li>
                 <li class="waves-effect waves-light" data-group="education">Education</li>
                 <li class="waves-effect waves-light" data-group="research">Research</li>
             </ul>
@@ -611,7 +610,7 @@
                     <span class="text-bold pink-text">Free</span>
                     Consultation!</h2>
 
-                <p>Chandra stuff here</p>
+                <p>Call us to schedule a free consultation. We will listen and analyze your business’ requirements. Once we’ve scoped out the project, we’ll propose a budget and timeline!</p>
 
                 <br>
 
