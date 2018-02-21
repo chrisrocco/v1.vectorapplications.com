@@ -253,7 +253,7 @@
                      data-splitout="none"
                      data-responsive_offset="on"
                      style="z-index: 7; white-space: nowrap;">
-                    <a href="#register" class="btn btn-lg waves-effect waves-light">Schedule a Consultation</a>
+                    <a href="#consultation" class="btn btn-lg waves-effect waves-light">Schedule a Consultation</a>
                 </div>
 
                 <!-- LAYER NR. 8 -->
@@ -288,7 +288,7 @@
                 <h2 class="white-text text-bold text-uppercase no-margin">start building your project with Vector</h2>
             </div>
             <div class="promo-btn">
-                <a href="#" class="btn white waves-effect waves-grey">purchase now</a>
+                <a href="#consultation" class="btn white waves-effect waves-grey">get in touch</a>
             </div>
         </div>
     </div>
@@ -636,7 +636,7 @@
             <div class="col-md-5 col-md-offset-1">
                 <div class="booking-form-wrapper">
 
-                    <h3 style="color: white">Schedule a Free Consultation</h3>
+                    <h3 style="color: white">Contact us</h3>
                     <form name="contact-form" class="clearfix" ng-submit="$ctrl.submit($event)">
 
                         <div class="row">
