@@ -331,7 +331,7 @@
 
         <div class="text-center mb-80">
             <h2 class="section-title text-uppercase">What we do</h2>
-            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus,</p>
+            <p class="section-sub">Vector is a web development agency specializing in dynamic web applications. We have experience building everything from simple ecommerce solutions, to complex data processing engines.</p>
         </div>
 
         <div class="row no-gutter">
