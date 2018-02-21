@@ -726,10 +726,6 @@
                     </div><!-- /.col-md-4 -->
 
                     <div class="col-md-3 col-md-offset-1 col-sm-4 widget">
-                        <h3>Learn More</h3>
-                        <address>
-                            [external links here] <br>
-                        </address>
                     </div><!-- /.col-md-4 -->
 
                 </div><!-- /.row -->
