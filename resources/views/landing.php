@@ -253,7 +253,7 @@
                      data-splitout="none"
                      data-responsive_offset="on"
                      style="z-index: 7; white-space: nowrap;">
-                    <a href="#consultation" class="btn btn-lg waves-effect waves-light">Schedule a Consultation</a>
+                    <a data-scroll href="#consultation" class="btn btn-lg waves-effect waves-light">Schedule a Consultation</a>
                 </div>
 
                 <!-- LAYER NR. 8 -->
@@ -288,7 +288,7 @@
                 <h2 class="white-text text-bold text-uppercase no-margin">start building your project with Vector</h2>
             </div>
             <div class="promo-btn">
-                <a href="#consultation" class="btn white waves-effect waves-grey">get in touch</a>
+                <a data-scroll href="#consultation" class="btn white waves-effect waves-grey">get in touch</a>
             </div>
         </div>
     </div>
