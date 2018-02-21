@@ -420,7 +420,6 @@
 
         <div class="text-center mb-50">
             <h2 class="section-title text-uppercase">OUR PORTFOLIO</h2>
-            <p class="section-sub">Working with us is Easy!</p>
         </div>
 
         <div class="portfolio-container text-center">
@@ -570,7 +569,7 @@
 
         <div class="text-center mb-80">
             <h2 class="section-title text-uppercase">Awesome clients</h2>
-            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus,</p>
+            <p class="section-sub"></p>
         </div>
 
         <div class="clients-grid gutter">
