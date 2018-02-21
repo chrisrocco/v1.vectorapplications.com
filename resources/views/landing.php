@@ -612,30 +612,6 @@
                     Consultation!</h2>
 
                 <p>Call us to schedule a free consultation. We will listen and analyze your business’ requirements. Once we’ve scoped out the project, we’ll propose a budget and timeline!</p>
-
-                <br>
-
-                <div class="countdown-wrapper">
-                    <ul class="countdown">
-                        <li>
-                            <span class="days pink-text">00</span>
-                            <p>days</p>
-                        </li>
-                        <li>
-                            <span class="hours pink-text">00</span>
-                            <p>hours </p>
-                        </li>
-                        <li>
-                            <span class="minutes pink-text">00</span>
-                            <p>minutes</p>
-                        </li>
-                        <li>
-                            <span class="seconds pink-text">00</span>
-                            <p>seconds</p>
-                        </li>
-                    </ul><!-- /countdown -->
-                </div>
-
             </div><!-- /.col-md-6 -->
 
             <div class="col-md-5 col-md-offset-1">

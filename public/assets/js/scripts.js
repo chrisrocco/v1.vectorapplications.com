@@ -162,6 +162,7 @@
 
 
         /* === Counter === */
+        /*
         $('.counter-section').on('inview', function(event, visible, visiblePartX, visiblePartY) {
             if (visible) {
                 $(this).find('.timer').each(function () {
@@ -177,6 +178,7 @@
                 $(this).off('inview');
             }
         });
+        */
 
 
 
