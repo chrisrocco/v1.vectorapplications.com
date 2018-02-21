@@ -357,7 +357,7 @@
                         </div>
 
                         <div class="content white-text">
-                            <p>Organize information, people, and processes across your organization.</p>
+                            <p>Organize information, people, and processes across your organization</p>
                         </div>
                     </div><!-- /.featured-wrapper -->
                 </div><!-- /.featured-box  -->
@@ -372,7 +372,7 @@
                         </div>
 
                         <div class="content white-text">
-                            <p>E-commerce, CRM, and CMS systems.</p>
+                            <p>E-commerce, Analytics Solutions and Content Management Systems</p>
                         </div>
                     </div><!-- /.featured-wrapper -->
                 </div><!-- /.featured-box  -->
