@@ -707,7 +707,7 @@
             <ul class="social-link text-center tt-animate ltr mt-20">
                 <li><a href="https://www.facebook.com/vectorweb.us/"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://www.linkedin.com/company/vector-applications"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/vector-web-development"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://github.com/vector-apps"><i class="fa fa-github"></i></a></li>
             </ul>
 
             <hr class="mt-10">
