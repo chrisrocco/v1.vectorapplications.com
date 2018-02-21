@@ -11,7 +11,7 @@
     <title>Vector Web Development | Birmingham AL</title>
 
     <!--  favicon -->
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
     <!--  apple-touch-icon -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/ico/apple-touch-icon-114-precomposed.png">
@@ -87,10 +87,10 @@
             <div class="col-md-6 text-right">
                 <ul class="topbar-cta no-margin">
                     <li class="mr-20">
-                        <a><i class="material-icons mr-10">&#xE0B9;</i>info@vectorapps.tech</a>
+                        <a><i class="material-icons mr-10">&#xE0B9;</i>info@vectorapplications.com</a>
                     </li>
                     <li>
-                        <a><i class="material-icons mr-10">&#xE0CD;</i>(205) 639 6666</a>
+                        <a><i class="material-icons mr-10">&#xE0CD;</i>205-639-6666</a>
                     </li>
                 </ul>
             </div>
@@ -110,18 +110,17 @@
 
                 <!--logo start-->
                 <a href="#top" class="logo-brand page-scroll" data-section="#top">
-                    <img src="assets/img/vector-logo.png" alt=""/>
+                    <img src="assets/img/vector-text-sm.png" alt=""/>
                 </a>
                 <!--logo end-->
 
                 <!--mega menu start-->
                 <ul class="menuzord-menu pull-right">
-                    <li><a href="#about">What we Do</a></li>
-                    <li><a href="#services">Service List</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#process">Process</a></li>
-                    <li><a href="#clients">Clients</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a data-scroll href="#whoWeAre">Who we Are</a></li>
+                    <li><a data-scroll href="#whatWeDo">What we Do</a></li>
+                    <li><a data-scroll href="#portfolio">Portfolio</a></li>
+                    <li><a data-scroll href="#clients">Clients</a></li>
+                    <li><a data-scroll href="#consultation"><b>Free Consultation</b></a></li>
                 </ul>
                 <!--mega menu end-->
 
@@ -254,7 +253,7 @@
                      data-splitout="none"
                      data-responsive_offset="on"
                      style="z-index: 7; white-space: nowrap;">
-                    <a href="#register" class="btn btn-lg waves-effect waves-light">Register Now</a>
+                    <a href="#register" class="btn btn-lg waves-effect waves-light">Schedule a Consultation</a>
                 </div>
 
                 <!-- LAYER NR. 8 -->
@@ -280,26 +279,49 @@
 </section><!-- end of slider wrapper -->
 
 
-<!-- ABOUT SECTION
-========================= -->
-<section class="content-promo-box banner padding-top-100 padding-bottom-120 gray-bg" >
+<!-- PROMO BOX -->
+<div class="full-width promo-box brand-bg mb-50">
     <div class="container">
-        <div class="row">
-            <div class="col-md-7">
-                <h2 class="font-30 text-extrabold mb-30 text-uppercase">VECTOR WEB DEVELOPMENT</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
-
-                <a href="#" class="btn pink btn-lg waves-effect waves-light">Schedule a Consultation</a>
+        <div class="col-md-12">
+            <div class="promo-info">
+                <span class="white-text text-uppercase">Are you impressed with our work? </span>
+                <h2 class="white-text text-bold text-uppercase no-margin">start building your project with Vector</h2>
             </div>
-
+            <div class="promo-btn">
+                <a href="#" class="btn white waves-effect waves-grey">purchase now</a>
+            </div>
         </div>
     </div>
+</div>
+
+
+<!-- WHO WE ARE
+========================= -->
+<section id="whoWeAre" class="section-padding">
+    <div class="container">
+
+        <div class="text-center mb-80">
+            <h2 class="section-title text-uppercase">Who we are</h2>
+            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus,</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-bold mb-40">Our Mission</h2>
+                <p>Himenaeos a vestibulum morbi. <a href="#">Ullamcorper cras scelerisque</a> taciti lorem metus feugiat est lacinia facilisis id nam leo condimentum praesent id diam. Vestibulum amet porta odio elementum convallis parturient tempor tortor tempus a mi ad parturient ad nulla mus amet in penatibus nascetur at vulputate euismod a est tristique scelerisque. Aliquet facilisis nisl vel vestibulum dignissim gravida ullamcorper hac quisque ad at nisl egestas adipiscing vel blandit.</p>
+            </div>
+
+            <div class="col-md-6">
+                <img src="assets/img/mission.jpg" alt="image" class="img-responsive">
+            </div>
+        </div><!-- /.row -->
+
+    </div><!-- /.container -->
 </section>
 
 
 <!-- WHAT WE DO (SERVICE LIST) -->
-<section class="section-padding">
+<section id="whatWeDo" class="section-padding gray-bg">
     <div class="container">
 
         <div class="text-center mb-80">
@@ -307,85 +329,275 @@
             <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus,</p>
         </div>
 
-        <div class="row equal-height-row">
-            <div class="col-md-4 mb-30">
-                <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
-                    <div class="icon">
-                        <i class="material-icons colored brand-icon">&#xE3B7;</i>
-                    </div>
-                    <div class="desc">
-                        <h2>Creative Design</h2>
-                        <p>Porttitor communicate pandemic data rather than enabled niche markets neque rather than enabled niche markets neque pulvinar.</p>
-                    </div>
-                </div><!-- /.featured-item -->
-            </div><!-- /.col-md-4 -->
+        <div class="row no-gutter">
+            <div class="col-md-3 col-sm-6">
+                <div class="featured-box brand-bg text-center z-depth-1">
+                    <div class="featured-wrapper">
+                        <div class="intro-header">
+                            <i class="material-icons white-text">&#xE53B;</i>
+                            <h2 class="white-text">Enterprise Portals</h2>
+                        </div>
 
-            <div class="col-md-4 mb-30">
-                <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
-                    <div class="icon">
-                        <i class="material-icons colored brand-icon">&#xE326;</i>
-                    </div>
-                    <div class="desc">
-                        <h2>Responsive Design</h2>
-                        <p>Porttitor communicate pandemic data rather than enabled niche markets neque rather than enabled niche markets neque pulvinar.</p>
-                    </div>
-                </div><!-- /.featured-item -->
-            </div><!-- /.col-md-4 -->
+                        <div class="content white-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                        </div>
+                    </div><!-- /.featured-wrapper -->
+                </div><!-- /.featured-box  -->
+            </div><!-- /.col-md-3 -->
 
-            <div class="col-md-4 mb-30">
-                <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
-                    <div class="icon">
-                        <i class="material-icons colored brand-icon">&#xE8B8;</i>
-                    </div>
-                    <div class="desc">
-                        <h2>Flexible Page Builder</h2>
-                        <p>Porttitor communicate pandemic data rather than enabled niche markets neque rather than enabled niche markets neque pulvinar.</p>
-                    </div>
-                </div><!-- /.featured-item -->
-            </div><!-- /.col-md-4 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="featured-box pink text-center z-depth-1">
+                    <div class="featured-wrapper">
+                        <div class="intro-header">
+                            <i class="material-icons white-text">&#xE051;</i>
+                            <h2 class="white-text">Website Development</h2>
+                        </div>
 
-            <div class="col-md-4">
-                <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
-                    <div class="icon">
-                        <i class="material-icons colored brand-icon">&#xE325;</i>
-                    </div>
-                    <div class="desc">
-                        <h2>Mobile Applicaion Design</h2>
-                        <p>Porttitor communicate pandemic data rather than enabled niche markets neque rather than enabled niche markets neque pulvinar.</p>
-                    </div>
-                </div><!-- /.featured-item -->
-            </div><!-- /.col-md-4 -->
+                        <div class="content white-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                        </div>
+                    </div><!-- /.featured-wrapper -->
+                </div><!-- /.featured-box  -->
+            </div><!-- /.col-md-3 -->
 
-            <div class="col-md-4">
-                <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
-                    <div class="icon">
-                        <i class="material-icons colored brand-icon">&#xE3B0;</i>
-                    </div>
-                    <div class="desc">
-                        <h2>Professional Photography</h2>
-                        <p>Porttitor communicate pandemic data rather than enabled niche markets neque rather than enabled niche markets neque pulvinar.</p>
-                    </div>
-                </div><!-- /.featured-item -->
-            </div><!-- /.col-md-4 -->
 
-            <div class="col-md-4">
-                <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
-                    <div class="icon">
-                        <i class="material-icons colored brand-icon">&#xE62E;</i>
-                    </div>
-                    <div class="desc">
-                        <h2>Moting Graphics Design</h2>
-                        <p>Porttitor communicate pandemic data rather than enabled niche markets neque rather than enabled niche markets neque pulvinar.</p>
-                    </div>
-                </div><!-- /.featured-item -->
-            </div><!-- /.col-md-4 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="featured-box brand-bg text-center z-depth-1">
+                    <div class="featured-wrapper">
+                        <div class="intro-header">
+                            <i class="material-icons white-text">&#xE60E;</i>
+                            <h2 class="white-text">SEO</h2>
+                        </div>
+
+                        <div class="content white-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                        </div>
+                    </div><!-- /.featured-wrapper -->
+                </div><!-- /.featured-box  -->
+            </div><!-- /.col-md-3 -->
+
+            <div class="col-md-3 col-sm-6">
+                <div class="featured-box pink text-center z-depth-1">
+                    <div class="featured-wrapper">
+                        <div class="intro-header">
+                            <i class="material-icons white-text">&#xE0B9;</i>
+                            <h2 class="white-text">Digital Marketing</h2>
+                        </div>
+
+                        <div class="content white-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                        </div>
+                    </div><!-- /.featured-wrapper -->
+                </div><!-- /.featured-box  -->
+            </div><!-- /.col-md-3 -->
         </div><!-- /.row -->
 
     </div><!-- /.container -->
 </section>
 
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="section-padding">
+    <div class="container">
+
+        <div class="text-center mb-50">
+            <h2 class="section-title text-uppercase">Works</h2>
+            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus,</p>
+        </div>
+
+        <div class="portfolio-container text-center">
+            <ul class="portfolio-filter brand-filter">
+                <li class="active waves-effect waves-light" data-group="all">All</li>
+                <li class="waves-effect waves-light" data-group="websites">Websites</li>
+                <li class="waves-effect waves-light" data-group="branding">Branding</li>
+                <li class="waves-effect waves-light" data-group="marketing">Marketing</li>
+                <li class="waves-effect waves-light" data-group="photography">Photography</li>
+            </ul>
+
+            <div class="portfolio portfolio-with-title col-3 gutter mt-50">
+
+                <div class="portfolio-item" data-groups='["all", "branding", "photography"]'>
+                    <div class="portfolio-wrapper">
+
+                        <div class="thumb">
+                            <div class="bg-overlay brand-overlay"></div>
+                            <img src="assets/img/portfolio/portfolio-1.jpg" alt="">
+
+                            <div class="portfolio-intro">
+                                <div class="action-btn">
+                                    <a href="assets/img/portfolio/portfolio-1.jpg" class="tt-lightbox" title="iOS Game Design"> <i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- thumb -->
+
+                        <div class="portfolio-title">
+                            <h2><a href="#">Portfolio Title</a></h2>
+                            <p><a href="#">iOS Design</a> </p>
+                        </div>
+
+                    </div><!-- /.portfolio-wrapper -->
+                </div><!-- /.portfolio-item -->
+
+                <div class="portfolio-item" data-groups='["all", "marketing", "websites"]'>
+                    <div class="portfolio-wrapper">
+                        <div class="thumb">
+                            <div class="bg-overlay brand-overlay"></div>
+                            <img src="assets/img/portfolio/portfolio-2.jpg" alt="">
+
+                            <div class="portfolio-intro">
+                                <div class="action-btn">
+                                    <a href="assets/img/portfolio/portfolio-2.jpg" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-title">
+                            <h2><a href="#">Portfolio Title</a></h2>
+                            <p><a href="#">Branding</a> </p>
+                        </div>
+
+                    </div><!-- /.portfolio-wrapper -->
+                </div><!-- /.portfolio-item -->
+
+                <div class="portfolio-item" data-groups='["all", "photography", "branding"]'>
+
+                    <div class="portfolio-wrapper">
+                        <div class="thumb">
+                            <div class="bg-overlay brand-overlay"></div>
+                            <img src="assets/img/portfolio/portfolio-3.jpg" alt="">
+
+                            <div class="portfolio-intro">
+                                <div class="action-btn">
+                                    <a href="assets/img/portfolio/portfolio-3.jpg" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-title">
+                            <h2><a href="#">Portfolio Title</a></h2>
+                            <p><a href="#">Branding</a> </p>
+                        </div>
+
+                    </div><!-- /.portfolio-wrapper -->
+                </div><!-- /.portfolio-item -->
+
+                <div class="portfolio-item" data-groups='["all", "websites", "branding"]'>
+                    <div class="portfolio-wrapper">
+                        <div class="thumb">
+                            <div class="bg-overlay brand-overlay"></div>
+                            <img src="assets/img/portfolio/portfolio-4.jpg" alt="">
+
+                            <div class="portfolio-intro">
+                                <div class="action-btn">
+                                    <a href="assets/img/portfolio/portfolio-4.jpg" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-title">
+                            <h2><a href="#">Portfolio Title</a></h2>
+                            <p><a href="#">Branding</a> </p>
+                        </div>
+
+                    </div><!-- /.portfolio-wrapper -->
+                </div><!-- /.portfolio-item -->
+
+                <div class="portfolio-item" data-groups='["all", "photography", "marketing"]'>
+                    <div class="portfolio-wrapper">
+                        <div class="thumb">
+                            <div class="bg-overlay brand-overlay"></div>
+                            <img src="assets/img/portfolio/portfolio-5.jpg" alt="">
+
+                            <div class="portfolio-intro">
+                                <div class="action-btn">
+                                    <a href="assets/img/portfolio/portfolio-5.jpg" class="tt-lightbox" title=""> <i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-title">
+                            <h2><a href="#">Portfolio Title</a></h2>
+                            <p><a href="#">Branding</a> </p>
+                        </div>
+
+                    </div><!-- /.portfolio-wrapper -->
+                </div><!-- /.portfolio-item -->
+
+                <div class="portfolio-item" data-groups='["all", "websites",  "marketing"]'>
+                    <div class="portfolio-wrapper">
+                        <div class="thumb">
+                            <div class="bg-overlay brand-overlay"></div>
+                            <img src="assets/img/portfolio/portfolio-6.jpg" alt="">
+
+                            <div class="portfolio-intro">
+                                <div class="action-btn">
+                                    <a href="#."> <i class="fa fa-link"></i>  </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-title">
+                            <h2><a href="#">Portfolio Title</a></h2>
+                            <p><a href="#">Branding</a> </p>
+                        </div>
+
+                    </div><!-- /.portfolio-wrapper -->
+                </div><!-- /.portfolio-item -->
+
+            </div><!-- /.portfolio -->
+
+        </div><!-- portfolio-container -->
+
+    </div><!-- /.container -->
+</section>
+
+
+<!-- CLIENTS -->
+<section id="clients" class="section-padding gray-bg">
+    <div class="container">
+
+        <div class="text-center mb-80">
+            <h2 class="section-title text-uppercase">Awesome clients</h2>
+            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus,</p>
+        </div>
+
+        <div class="clients-grid gutter">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="border-box">
+                        <a href="#">
+                            <img src="assets/img/client-logo/1.png" alt="clients">
+                        </a>
+                    </div><!-- /.border-box -->
+                </div><!-- /.col-md-3 -->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="border-box">
+                        <a href="#">
+                            <img src="assets/img/client-logo/2.png" alt="clients">
+                        </a>
+                    </div><!-- /.border-box -->
+                </div><!-- /.col-md-3 -->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="border-box">
+                        <a href="#">
+                            <img src="assets/img/client-logo/4.png" alt="clients">
+                        </a>
+                    </div><!-- /.border-box -->
+                </div><!-- /.col-md-3 -->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="border-box">
+                        <a href="#">
+                            <img src="assets/img/client-logo/5.png" alt="clients">
+                        </a>
+                    </div><!-- /.border-box -->
+                </div><!-- /.col-md-3 -->
+            </div><!-- /.row -->
+        </div><!-- /.clients-grid -->
+
+    </div><!-- /.container -->
+</section>
+
+
 <!-- SCHEDULE A CONSULTATION SECTION -->
-<section id="register" class="section-padding parallax-bg banner-5 bg-fixed overlay dark-5"
+<section id="consultation" class="section-padding parallax-bg banner-5 bg-fixed overlay dark-5"
          data-stellar-background-ratio="0.5">
     <div class="container">
         <div class="row">
@@ -484,7 +696,7 @@
             <div class="padding-top-70">
                 <div class="footer-logo text-center mb-80">
                     <a href="#">
-                        <img src="assets/img/vector-logo.png" style="height: 60px" alt="Vector Web Development">
+                        <img src="assets/img/vector-mono-lg.png" style="height: 60px" alt="Vector Web Development">
                         <h2>Vector Applications LLC</h2>
                     </a>
                 </div>
@@ -502,7 +714,7 @@
                     <div class="col-md-3 col-md-offset-1 col-sm-4 widget">
                         <h3>Get In Touch</h3>
                         <address>
-                            info@vectorweb.us <br>
+                            info@vectorapplications.com <br>
                             205-639-6666
                         </address>
                     </div><!-- /.col-md-4 -->
@@ -528,11 +740,11 @@
                 </div>
                 <div class="col-md-6">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact us</a></li>
+                        <li><a data-scroll href="#whoWeAre">Who we Are</a></li>
+                        <li><a data-scroll href="#whatWeDo">What we Do</a></li>
+                        <li><a data-scroll href="#portfolio">Portfolio</a></li>
+                        <li><a data-scroll href="#clients">Clients</a></li>
+                        <li><a data-scroll href="#consultation"><b>Free Consultation</b></a></li>
                     </ul>
                 </div>
             </div>
@@ -545,7 +757,7 @@
 <!-- Preloader -->
 <div id="preloader">
     <div class="preloader-position">
-        <img src="assets/img/uab-w-nsa.png" alt="logo" style="height: 100px">
+        <img src="assets/img/vector-text-lg.png" alt="logo" style="height: 100px">
         <div class="progress">
             <div class="indeterminate"></div>
         </div>
