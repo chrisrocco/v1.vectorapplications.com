@@ -1,15 +1,39 @@
 <?php
 
+use App\Mail\Contact;
 use Illuminate\Http\Request;
-use App\Registrations;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Validator;
 
-Route::post('/register', function(Request $request){
-    if(count(Registrations::where('email', '=', $request->email)->get()) > 0) abort(409);
+Route::post('/contact', function(Request $request){
+    $validator = Validator::make($request->all(), [
+        'email' => 'email|required',
+        'phone' => 'string|required',
+        'name' => 'string|required',
+        'business_name' => 'string|required',
+        'message' => 'string|required',
+    ]);
 
-    Registrations::create($request->all());
-    return Registrations::all();
-});
+    if ($validator->fails()) {
+        return response()->json([
+            'status' => 'INVALID_PARAMS',
+            'reasons' => $validator->errors(),
+        ], 400);
+    }
+    
 
-Route::get('/roster', function(Request $request){
-    return Registrations::all();
+    $data = [
+        'client_email' => $request->email,
+        'client_name' => $request->name,
+        'business_name' => $request->business_name,
+        'client_phone' => $request->phone,
+        'message_body' => $request->message,
+    ];
+
+    Mail::to(config('mail.company.address'), config('mail.company.name'))
+        ->send(new Contact($data));
+
+    return response()->json(true);
+
 });
