@@ -31,7 +31,7 @@ Route::post('/contact', function(Request $request){
         'message_body' => $request->message,
     ];
 
-    Mail::to("info@vectorweb.us", "Vector")
+    Mail::to(config('mail.company.address'), config('mail.company.name'))
         ->send(new Contact($data));
 
     return response(200);
