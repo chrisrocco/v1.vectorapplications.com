@@ -24,6 +24,7 @@
                     }, function(err){
                         console.log(err);
                         switch(err.status){
+                            case 400: return swal(err.data.msg, '', 'warning');
                             case 500: return swal("Oops.. something went wrong", '', 'error');
                         }
                     });

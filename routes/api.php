@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Validator;
 
 Route::post('/contact', function(Request $request){
+    /** @var \Illuminate\Validation\Validator $validator */
     $validator = Validator::make($request->all(), [
         'email' => 'email|required',
         'phone' => 'string|required',
@@ -16,9 +17,11 @@ Route::post('/contact', function(Request $request){
     ]);
 
     if ($validator->fails()) {
+        $errors = $validator->errors();
         return response()->json([
             'status' => 'INVALID_PARAMS',
-            'reasons' => $validator->errors(),
+            'msg' => $errors->first(),
+            'reasons' => $errors,
         ], 400);
     }
     

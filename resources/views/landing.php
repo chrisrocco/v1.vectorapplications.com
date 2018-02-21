@@ -64,7 +64,7 @@
     <script src="app.js"></script>
 </head>
 
-<body ng-app="hspc" ng-controller="hspc.controller as $ctrl" id="top" class="has-header-search">
+<body ng-app="vector" ng-controller="vector.controller as $ctrl" id="top" class="has-header-search">
 
 <!-- Top bar -->
 <div class="top-bar light-blue darken-2 visible-md visible-lg">
@@ -643,7 +643,7 @@
                             <div class="col-md-6">
                                 <div class="input-field">
                                     <input type="text" name="name" class="validate" id="name"
-                                           ng-model="$ctrl.contactForm.name">
+                                           ng-model="$ctrl.form.name">
                                     <label for="name" class="">Contact Name</label>
                                 </div>
 
@@ -651,8 +651,26 @@
 
                             <div class="col-md-6">
                                 <div class="input-field">
+                                    <input type="text" name="email" class="validate" id="email"
+                                           ng-model="$ctrl.form.email">
+                                    <label for="name" class="">Email</label>
+                                </div>
+
+                            </div><!-- /.col-md-6 -->
+
+                            <div class="col-md-6">
+                                <div class="input-field">
+                                    <input type="text" name="business_name" class="validate" id="business_name"
+                                           ng-model="$ctrl.form.business_name">
+                                    <label for="name" class="">Business</label>
+                                </div>
+
+                            </div><!-- /.col-md-6 -->
+
+                            <div class="col-md-6">
+                                <div class="input-field">
                                     <input id="phone" name="phone" type="tel" class="validate"
-                                           ng-model="$ctrl.contactForm.phone">
+                                           ng-model="$ctrl.form.phone">
                                     <label for="phone" class="">Phone Number</label>
                                 </div>
                             </div><!-- /.col-md-6 -->
@@ -660,7 +678,7 @@
                         </div><!-- /.row -->
 
                         <div class="input-field">
-                            <textarea ng-model="$ctrl.contactForm.message" name="message" id="message" class="materialize-textarea"></textarea>
+                            <textarea ng-model="$ctrl.form.message" name="message" id="message" class="materialize-textarea"></textarea>
                             <label for="message" class="">Message</label>
                         </div>
 

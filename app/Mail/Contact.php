@@ -27,7 +27,7 @@ class Contact extends Mailable {
      */
     public function build() {
         $data = &$this->data;
-        return $this->from($data['client_email'], $data['client_name'])
+        return $this->from(config('mail.company.address'), $data['client_name'])
             ->subject("New Website Contact | ".$data['client_name'])
             ->markdown('emails.contact')
             ->with($data);
