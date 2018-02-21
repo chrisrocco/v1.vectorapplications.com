@@ -308,7 +308,12 @@
         <div class="row">
             <div class="col-md-6">
                 <h2 class="text-bold mb-40">Our Mission</h2>
-                <p>Himenaeos a vestibulum morbi. <a href="#">Ullamcorper cras scelerisque</a> taciti lorem metus feugiat est lacinia facilisis id nam leo condimentum praesent id diam. Vestibulum amet porta odio elementum convallis parturient tempor tortor tempus a mi ad parturient ad nulla mus amet in penatibus nascetur at vulputate euismod a est tristique scelerisque. Aliquet facilisis nisl vel vestibulum dignissim gravida ullamcorper hac quisque ad at nisl egestas adipiscing vel blandit.</p>
+                <p>Vector is a team of individuals based in Birmingham with a passion for digitizing your business.
+                    We come to work every day to solve the internet-based problems you experience and to improve the way customers interact with your business on the web.
+                    It's hard to know the best way to set up a website in today's quickly evolving environment.
+                    This is where we bring our expertise and experience for you to utilize.
+                    We will work with you step by step to build the website of your dreams.
+                    Each website we develop is engineered to empower our clients and their business.</p>
             </div>
 
             <div class="col-md-6">
@@ -339,7 +344,7 @@
                         </div>
 
                         <div class="content white-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                            <p>Organize information, people, and processes across your organization.</p>
                         </div>
                     </div><!-- /.featured-wrapper -->
                 </div><!-- /.featured-box  -->
@@ -354,7 +359,7 @@
                         </div>
 
                         <div class="content white-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                            <p>E-commerce, CRM, and CMS systems.</p>
                         </div>
                     </div><!-- /.featured-wrapper -->
                 </div><!-- /.featured-box  -->
@@ -370,7 +375,7 @@
                         </div>
 
                         <div class="content white-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                            <p>Improve your business online search rankings</p>
                         </div>
                     </div><!-- /.featured-wrapper -->
                 </div><!-- /.featured-box  -->
@@ -385,7 +390,7 @@
                         </div>
 
                         <div class="content white-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellat quo vitae tempora.</p>
+                            <p>Target your customers with specialized marketing</p>
                         </div>
                     </div><!-- /.featured-wrapper -->
                 </div><!-- /.featured-box  -->
